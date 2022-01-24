@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOne"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnFour"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnTwo"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTwo"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnFive"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnThree"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnOne"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThree"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnSix"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnTwo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFour"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnSeven"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnFive"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnOne"
+            tools:text="4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFive"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnEight"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnSix"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnFour"
+            app:layout_constraintTop_toBottomOf="@+id/btnTwo"
+            tools:text="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSix"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnNine"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnFive"
+            app:layout_constraintTop_toBottomOf="@+id/btnThree"
+            tools:text="6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSeven"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnPoint"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnEight"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFour"
+            tools:text="7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEight"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnZero"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnNine"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnSeven"
+            app:layout_constraintTop_toBottomOf="@+id/btnFive"
+            tools:text="8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNine"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toTopOf="@+id/btnBackspace"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnEight"
+            app:layout_constraintTop_toBottomOf="@+id/btnSix"
+            tools:text="9" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnPoint"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnZero"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSeven"
+            tools:src="@drawable/selector_ic_touch_id" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnZero"
+            style="@style/CustomKeyboardPinCodeBtnStyle"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_selector_keyboard_pincode"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/btnBackspace"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnPoint"
+            app:layout_constraintTop_toBottomOf="@+id/btnEight"
+            tools:text="0" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnBackspace"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_backspace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnZero"
+            app:layout_constraintTop_toBottomOf="@+id/btnNine" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

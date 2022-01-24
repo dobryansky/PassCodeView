@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PassCodeView</string>
+    <string name="custom_keyboard_view_btn_one">1</string>
+    <string name="custom_keyboard_view_btn_two">2</string>
+    <string name="custom_keyboard_view_btn_three">3</string>
+    <string name="custom_keyboard_view_btn_four">4</string>
+    <string name="custom_keyboard_view_btn_five">5</string>
+    <string name="custom_keyboard_view_btn_six">6</string>
+    <string name="custom_keyboard_view_btn_seven">7</string>
+    <string name="custom_keyboard_view_btn_eight">8</string>
+    <string name="custom_keyboard_view_btn_nine">9</string>
+    <string name="custom_keyboard_view_btn_zero">0</string>
+    <string name="custom_keyboard_view_btn_point">.</string>
+    <string name="custom_keyboard_view_empty_string"></string>
+</resources>
